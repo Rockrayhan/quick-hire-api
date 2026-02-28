@@ -55,12 +55,12 @@ This API allows candidates to browse jobs, apply for them, and enables admins to
 
 - Update database credentials and other settings in .env:
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=quickhire
-DB_USERNAME=root
-DB_PASSWORD=`
+`DB_CONNECTION=mysql`
+`DB_HOST=127.0.0.1`
+`DB_PORT=3306`
+`DB_DATABASE=quickhire`
+`DB_USERNAME=root`
+`DB_PASSWORD=`
 
 5. **Run migrations:**:
    `php artisan migrate`
