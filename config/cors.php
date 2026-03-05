@@ -19,12 +19,12 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    // 'allowed_origins' => ['*'],
 
-    // 'allowed_origins' => [
-    //     'http://localhost:5173',
-    //     'https://your-frontend-domain.com',
-    // ],
+    'allowed_origins' => [
+        'http://localhost:5173',
+        'https://quickhire-frontend-lake.vercel.app',
+    ],
 
     'allowed_origins_patterns' => [],
 

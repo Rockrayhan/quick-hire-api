@@ -55,7 +55,6 @@ class JobController extends Controller
     // POST /api/jobs
     public function store(Request $request)
     {
-        // Admin validation (later you can add auth middleware)
         $request->validate([
             'title' => 'required|string|max:255',
             'company' => 'required|string|max:255',
@@ -72,7 +71,7 @@ class JobController extends Controller
         ], 201);
     }
 
-    // DELETE /api/jobs/{id}
+    // DELETE api
     public function destroy($id)
     {
         $job = Job::find($id);
